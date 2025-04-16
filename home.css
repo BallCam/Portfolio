@@ -1,0 +1,61 @@
+#wrapper{background: bisque;
+width: 90%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#content{
+    background-color: blanchedalmond;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+header img{
+max-width: 100%;
+height: auto;
+}
+
+#Homework{
+    background-color: white;
+    margin: 1em;
+    flex: 1;
+    font-size: .5em;
+}
+
+#milestones{
+    background-color: white;
+    margin: 1em;
+    flex: 3;
+    font-size: .05em;
+}
+
+#agreement{
+    background-color: white;
+    margin: 1em;
+    flex: 3;
+    font-size: .05em;
+}
+
+#homework, #milestones, #agreement{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px inset;
+}
+
+footer{
+    background: bisque;
+    height:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    #content{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    #wrapper{
+        margin: 0;
+        width:100%;
+    }
+}

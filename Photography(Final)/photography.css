@@ -1,0 +1,164 @@
+/*#E8E9EB(Anti-flash white*/
+/*#E0DfD5(Alabaster)*/
+/*#826754(Coyote)*/
+/*#202030(Raisin Black)*/
+/*#0081AF(Cerulean)*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&display=swap');
+
+header{
+    background: rgb(224, 223, 213);
+    padding: 20px;
+    height: 150px;
+    border-bottom: 4px double rgb(0, 0, 0);
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Cinzel';
+}
+
+nav{
+    margin: auto;
+    height: 50px;
+    width: auto;
+    background-color: rgb(224, 223, 213);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0;
+    padding: 10px 0 8px 0;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    padding: .5em 0;
+    text-decoration: none;
+    border-right: 2px solid;
+}
+
+nav ul li a:link{color: rgb(128, 128, 128);}
+nav ul li a:visited{color: rgb(111, 26, 7);}
+nav ul li a:hover{color: rgb(168, 118, 62); background-color: rgb(247, 243, 227);}
+
+
+body{
+    width: 1000px;
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px;
+    border-color: rgb(0, 0, 0);
+    height: auto;
+    /* ADD animation colors here */
+animation-name: rainbow; 
+animation-duration: 20s; 
+animation-timing-function: linear; 
+animation-iteration-count: infinite; 
+}
+
+
+#wrapper{
+    width: 999px;
+    margin: auto;
+    background-color: rgb(245, 222, 179);
+    font-family: 'Nanum Myeongjo';
+    font-size: small;
+}
+p{
+    color: #232323;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+main{
+    width: 550px;
+    float: none;
+    margin: auto 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(232, 233, 235);
+}
+
+figure{
+    width: 450px;
+    float: left;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+}
+
+aside{
+    float: right;
+    width: 400px;
+    margin: auto 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(232, 233, 235);    
+}
+
+img{
+    height: auto;
+    width: 49%;
+    object-fit: cover;
+}
+
+footer{
+    text-align: center;
+    clear:both;
+    height: 150px;
+    border-top: 4px double rgb(0, 0, 0);
+    background-color: rgb(224, 223, 213);
+}
+
+footer img{
+    width: 20px;
+    margin: auto;
+}
+
+
+
+@keyframes rainbow {
+    0% { background: rgb(3, 4, 94);  }
+    14.3% { background: rgb(2, 62, 138); }
+    28.6% { background: rgb(0, 119, 182);    }
+    42.9% { background: rgb(0, 150, 199);}
+    57.2% { background: rgb(0, 180, 216);}
+    71.5% { background: rgb(72, 202, 228);}
+    85.8% { background: rgb(144, 224, 239); }
+    100% {background: rgb(3, 4, 94); }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #wrapper{
+        width: auto;
+        margin: 0;
+    }
+
+main{
+    width: 100%;
+}
+
+aside{
+    width: 100%;
+}
+}
